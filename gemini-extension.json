@@ -1,0 +1,11 @@
+{
+  "name": "economic-statistics",
+  "version": "1.0.0",
+  "description": "Official economic statistics: GDP, inflation, trade, interest rates and public debt for 150+ countries.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "economic-statistics": {
+      "httpUrl": "https://monit.ly/api/mcp/economy"
+    }
+  }
+}
