@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ContentWriterco/economic-statistics",
+  "title": "Economic Statistics",
+  "description": "Official economic statistics for AI agents: GDP, inflation, trade and debt for 150+ countries.",
+  "version": "1.0.0",
+  "websiteUrl": "https://monit.ly",
+  "icons": [
+    {
+      "src": "https://monit.ly/logo1000px.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ContentWriterco/Economic-Statistics-MCP",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://monit.ly/api/mcp/economy"
+    }
+  ]
+}
